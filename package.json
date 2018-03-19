@@ -1,0 +1,32 @@
+{
+  "name": "gproxy",
+  "description": "一款无侵入、可插拔的静态资源 (`js/css`) 代理服务器",
+  "version": "0.0.12",
+  "homepage": "https://github.com/HerbertKarajan/gproxy",
+  "main": "./index.js",
+  "bin": {
+    "gproxy": "./bin/gproxy"
+  },
+  "keywords": [
+    "gfe",
+    "static",
+    "proxy",
+    "mount",
+    "js",
+    "css"
+  ],
+  "author": "karajan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HerbertKarajan/gproxy.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^1.0.0",
+    "static-server": "^2.0.3",
+    "syncrequest": "^1.4.2",
+    "request": "^2.61.0",
+    "yargs": "^3.21.0",
+    "chalk": "^0.5.1"
+  }
+}
