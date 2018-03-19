@@ -1,7 +1,7 @@
 {
   "name": "gproxy",
   "description": "一款无侵入、可插拔的静态资源 (`js/css`) 代理服务器",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "homepage": "https://github.com/HerbertKarajan/gproxy",
   "main": "./index.js",
   "bin": {
